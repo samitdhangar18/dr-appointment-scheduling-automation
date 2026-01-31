@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dr Strange Appointment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h1>Dr Strange Appointment System</h1>
+
+  <form id="form">
+    <input type="text" id="name" placeholder="Patient Name" required>
+    <input type="email" id="email" placeholder="Email" required>
+    <input type="date" id="date" required>
+    <input type="time" id="time" required>
+    <button>Book Appointment</button>
+  </form>
+
+  <h2>Appointments</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th><th>Email</th><th>Date</th><th>Time</th><th>Status</th>
+      </tr>
+    </thead>
+    <tbody id="list"></tbody>
+  </table>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
